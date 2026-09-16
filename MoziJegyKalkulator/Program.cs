@@ -4,7 +4,7 @@ bool diak = true;
 double mozj = 2800;
 double dbsz = 3;
 double pop = 1400;
-float kedvezmeny = 0.20;
+double kedvezmeny = 0.20;
 if ((kor <= 18) & (diak=true))
 {
     double ar = mozj + (pop * dbsz);
