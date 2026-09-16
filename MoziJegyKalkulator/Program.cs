@@ -7,5 +7,7 @@ double pop = 1400;
 float kedvezmeny = 0.20;
 if (kor >= 18)
 {
+    double ar = mozj + (pop * dbsz);
+    double vegar = ar / 100 * kedvezmeny;
 
 }
