@@ -2,8 +2,8 @@
 int kor = 19;
 bool diak = false;
 double mozj = 2800;
-double dbsz = 3;
-double pop = 1400;
+double dbsz = 2;
+double pop = 1500;
 double kedvezmeny = 0.20;
 if ((kor <= 18) & (diak=true))
 {
