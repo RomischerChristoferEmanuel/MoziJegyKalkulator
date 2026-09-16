@@ -5,7 +5,7 @@ double mozj = 2800;
 double dbsz = 2;
 double pop = 1500;
 double kedvezmeny = 0.20;
-if ((kor <= 18) & (diak=true))
+if ((kor <= 18) & (diak==true))
 {
     double ar = mozj + (pop * dbsz);
     double vegar = ar / 100 * kedvezmeny;
@@ -14,14 +14,14 @@ if ((kor <= 18) & (diak=true))
 Console.WriteLine($"Vásárló neve: {nev}  ({kor})");
 Console.WriteLine($"Rendelés 1db Mozijegy + {dbsz} db Popcorn");
 
-if (diak = true)
+if ((kor <= 18) & (diak == true))
 {
     Console.WriteLine($"Alapösszeg {mozj + (pop * dbsz)} Ft");
-    Console.WriteLine($"Fizetendő összeg: {mozj + (pop * dbsz) / 100 * kedvezmeny}");
+    Console.WriteLine($"Fizetendő összeg: {(mozj + (pop * dbsz))* 0.8} Ft");
     Console.WriteLine("20% kedvezmény érvényesítve!");
 }
 
-if (diak = false)
+if ((kor >= 18) & (diak == false))
 {
     Console.WriteLine($"Alapösszeg {mozj + (pop * dbsz)} Ft");
     Console.WriteLine($"Fizetendő összeg: {mozj + (pop * dbsz)}");
